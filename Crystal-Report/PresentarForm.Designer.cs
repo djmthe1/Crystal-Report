@@ -1,6 +1,6 @@
 ﻿namespace Crystal_Report
 {
-    partial class CrystalForm
+    partial class PresentarForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Presentarbutton = new System.Windows.Forms.Button();
+            this.PFcrystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.SuspendLayout();
             // 
-            // Presentarbutton
+            // crystalReportViewer1
             // 
-            this.Presentarbutton.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Presentarbutton.Location = new System.Drawing.Point(120, 194);
-            this.Presentarbutton.Name = "Presentarbutton";
-            this.Presentarbutton.Size = new System.Drawing.Size(152, 56);
-            this.Presentarbutton.TabIndex = 0;
-            this.Presentarbutton.Text = "Presentar Reporte ";
-            this.Presentarbutton.UseVisualStyleBackColor = true;
-            this.Presentarbutton.Click += new System.EventHandler(this.Presentarbutton_Click);
+            this.PFcrystalReportViewer1.ActiveViewIndex = -1;
+            this.PFcrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PFcrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.PFcrystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PFcrystalReportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.PFcrystalReportViewer1.Name = "crystalReportViewer1";
+            this.PFcrystalReportViewer1.Size = new System.Drawing.Size(284, 262);
+            this.PFcrystalReportViewer1.TabIndex = 0;
             // 
-            // CrystalForm
+            // PresentarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.Presentarbutton);
-            this.Name = "CrystalForm";
-            this.Text = "Crystal Report";
+            this.Controls.Add(this.PFcrystalReportViewer1);
+            this.Name = "PresentarForm";
+            this.Text = "Presentar";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button Presentarbutton;
+        public CrystalDecisions.Windows.Forms.CrystalReportViewer PFcrystalReportViewer1;
     }
 }
-

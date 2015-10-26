@@ -16,5 +16,14 @@ namespace Crystal_Report
         {
             InitializeComponent();
         }
+
+        private void Presentarbutton_Click(object sender, EventArgs e)
+        {
+            PresentarForm PF = new PresentarForm();
+            AgendaCrystalReport AC = new AgendaCrystalReport();
+            PF.PFcrystalReportViewer1.ReportSource = AC;
+            PF.ShowDialog();
+        }
     }
 }
+ 
