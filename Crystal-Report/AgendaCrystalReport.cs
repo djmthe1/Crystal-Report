@@ -16,8 +16,10 @@ namespace Crystal_Report {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class AgendaCrystalReport : ReportClass {
-        
+    public class AgendaCrystalReport : ReportClass
+    {
+        private CachedAgendaCrystalReport cachedAgendaCrystalReport1;
+
         public AgendaCrystalReport() {
         }
         
@@ -103,8 +105,14 @@ namespace Crystal_Report {
                 return this.ReportDefinition.Sections[6];
             }
         }
+
+        private void InitializeComponent()
+        {
+            this.cachedAgendaCrystalReport1 = new Crystal_Report.CachedAgendaCrystalReport();
+
+        }
     }
-    
+
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
     public class CachedAgendaCrystalReport : Component, ICachedReport {
         

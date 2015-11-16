@@ -73,6 +73,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AgendaCrystalReport.resx">
+      <DependentUpon>AgendaCrystalReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AgendaCrystalReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>AgendaCrystalReport.cs</LastGenOutput>
