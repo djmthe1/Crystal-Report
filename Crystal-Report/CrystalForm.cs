@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Chart;
 
 namespace Crystal_Report
 {
@@ -23,6 +24,12 @@ namespace Crystal_Report
             AgendaCrystalReport AC = new AgendaCrystalReport();
             PF.PFcrystalReportViewer1.ReportSource = AC;
             PF.ShowDialog();
+        }
+
+        private void botonPresentarGrafico_Click(object sender, EventArgs e)
+        {
+            Grafico Grafico = new Grafico();
+            Grafico.Show();
         }
     }
 }
