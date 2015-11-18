@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Chart;
+using Prueba;
 
 namespace Crystal_Report
 {
@@ -30,6 +31,8 @@ namespace Crystal_Report
         {
             Grafico Grafico = new Grafico();
             Grafico.Show();
+            Form1 f = new Form1();
+            f.Show();
         }
     }
 }

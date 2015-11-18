@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystal-Report", "Crystal-R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chart", "Chart\Chart.csproj", "{B0DD1960-ED02-4248-A2A7-3CE39648CD29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba", "Prueba\Prueba.csproj", "{7E63F60A-2E30-454C-94A8-E70A8FEBBF5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B0DD1960-ED02-4248-A2A7-3CE39648CD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0DD1960-ED02-4248-A2A7-3CE39648CD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0DD1960-ED02-4248-A2A7-3CE39648CD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E63F60A-2E30-454C-94A8-E70A8FEBBF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E63F60A-2E30-454C-94A8-E70A8FEBBF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E63F60A-2E30-454C-94A8-E70A8FEBBF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E63F60A-2E30-454C-94A8-E70A8FEBBF5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

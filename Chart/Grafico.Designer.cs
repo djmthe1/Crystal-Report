@@ -66,7 +66,7 @@
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
             series1.Legend = "Nombres";
             series1.Name = "Nombres";
-            series1.XValueMember = "nombre";
+            series1.XValueMember = "Apellido";
             series1.YValueMembers = "Id";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
